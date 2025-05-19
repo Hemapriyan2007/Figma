@@ -585,7 +585,7 @@ img {
 ```
 
 ## OUTPUT:
-
+![alt text](<Screenshot 2025-05-19 205310.png>)
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
