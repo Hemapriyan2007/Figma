@@ -1,6 +1,5 @@
 # Ex09 Event Registration Web Application
-## Date:19.05.2025
-## Reg No:212224220055
+## Date: 19-05-2025
 
 ## AIM:
 To design, develop and deploy a web application for event registration.
@@ -34,558 +33,457 @@ Publish the website in the given URL.
 Figma
 
 ## CODE:
-```
-Home Page
-HTML
 
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exported Figma Design</title>
-  
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<img src="images/android-compact-1-1.png" class="android-compact-1-1" alt="android-compact-1" />
+Name : HEMAPRIYAN.P
 
-</body>
-</html>
+Reg / Ref No : 212224040115/ 24900468
 
-CSS
-
-  :root {
+html
+<style>
+    .container--0- {
+  position: absolute;
+  left: 1338px;
+  top: 0px;
+  width: 402px;
+  height: 874px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
 }
-
-
-/* CSS Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.android-compact-1-1 {
-@media (max-width: 1440px) {
-  .android-compact-1-1 {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-
-@media (max-width: 768px) {
-  .android-compact-1-1 {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  width: 100%;
-  height: auto;
-}
-```
-```
-Event Page
-HTML
-
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exported Figma Design</title>
-  
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="android-small-1-1">
-<img src="images/image-1-2.png" class="image-1-2" alt="image-1" />
-<p class="text-3"><span class="text-black">sports day Events</span></p>
-<div class="rectangle-3-4"></div>
-<p class="text-5"><span class="text-black">cricket
-Football
-Handball
-Volley ball
-Athletes</span></p>
-</div>
-
-</body>
-</html>
-
-CSS
-
-
-/* Add font files for Jomolhari */
-@font-face {
-  font-family: 'Jomolhari';
-  src: url('fonts/jomolhari.woff2') format('woff2'),
-       url('fonts/jomolhari.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Add font files for Jost */
-@font-face {
-  font-family: 'Jost';
-  src: url('fonts/jost.woff2') format('woff2'),
-       url('fonts/jost.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-:root {
-  --font-family-jomolhari: 'Jomolhari', sans-serif;
-  --font-family-jost: 'Jost', sans-serif;
-  --text-black: rgba(0, 0, 0, 1);
-}
-
-.text-black {
-  color: var(--text-black);
-}
-
-
-/* CSS Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.image-1-2 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  opacity: 0.3499999940395355;
-  width: 100%;
-  height: auto;
-}
-
-.text-3 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-jomolhari);
-  font-weight: normal;
-  font-size: 24px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.rectangle-3-4 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(255, 249, 249, 1);
-}
-
-.text-5 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-jost);
-  font-weight: normal;
-  font-size: 24px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.android-small-1-1 {
-@media (max-width: 1440px) {
-  .android-small-1-1 {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-
-@media (max-width: 768px) {
-  .android-small-1-1 {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(255, 255, 255, 1);
-}
-
-```
-```
-Registration Page
-HTML
-
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exported Figma Design</title>
-  
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="android-small-2-1">
-<img src="images/image-3-2.png" class="image-3-2" alt="image-3" />
-<div class="rectangle-4-3"></div>
-<div class="rectangle-5-4"></div>
-<div class="rectangle-6-5"></div>
-<div class="rectangle-7-6"></div>
-<div class="rectangle-8-7"></div>
-<div class="rectangle-9-8"></div>
-<p class="text-9"><span class="text-black">Name</span></p>
-<p class="text-10"><span class="text-black">reg no</span></p>
-<p class="text-11"><span class="text-black">Age</span></p>
-<p class="text-12"><span class="text-black">Dept</span></p>
-<p class="text-13"><span class="text-black">Mobile no</span></p>
-<p class="text-14"><span class="text-black">Event name</span></p>
-<div class="rectangle-10-15"></div>
-<p class="text-16"><span class="text-black">SUBMIT</span></p>
-</div>
-
-</body>
-</html>
-
-CSS
-
-
-/* Add font files for Jomolhari */
-@font-face {
-  font-family: 'Jomolhari';
-  src: url('fonts/jomolhari.woff2') format('woff2'),
-       url('fonts/jomolhari.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-:root {
-  --font-family-jomolhari: 'Jomolhari', sans-serif;
-  --text-black: rgba(0, 0, 0, 1);
-}
-
-.text-black {
-  color: var(--text-black);
-}
-
-
-/* CSS Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.image-3-2 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  width: 100%;
-  height: auto;
-}
-
-.rectangle-4-3 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(254, 249, 249, 1);
-}
-
-.rectangle-5-4 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(249, 247, 247, 1);
-}
-
-.rectangle-6-5 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(254, 247, 247, 1);
-}
-
-.rectangle-7-6 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(254, 247, 247, 1);
-}
-
-.rectangle-8-7 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(254, 247, 247, 1);
-}
-
-.rectangle-9-8 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(254, 247, 247, 1);
-}
-
-.text-9 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  opacity: 0.6200000047683716;
-  font-family: var(--font-family-jomolhari);
-  font-weight: normal;
-  font-size: 13px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.text-10 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  opacity: 0.6200000047683716;
-  font-family: var(--font-family-jomolhari);
-  font-weight: normal;
-  font-size: 13px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.text-11 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  opacity: 0.6200000047683716;
-  font-family: var(--font-family-jomolhari);
-  font-weight: normal;
-  font-size: 13px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.text-12 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  opacity: 0.6200000047683716;
-  font-family: var(--font-family-jomolhari);
-  font-weight: normal;
-  font-size: 13px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.text-13 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  opacity: 0.6200000047683716;
-  font-family: var(--font-family-jomolhari);
-  font-weight: normal;
-  font-size: 13px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.text-14 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  opacity: 0.6200000047683716;
-  font-family: var(--font-family-jomolhari);
-  font-weight: normal;
-  font-size: 13px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.rectangle-10-15 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(23, 136, 235, 1);
-  border: 1px solid rgba(0, 0, 0, 1);
-}
-
-.text-16 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-jomolhari);
-  font-weight: normal;
+.text-1-2-1 {
+  position: absolute;
+  left: 151.00284774538653px;
+  top: 713.1062073967535px;
+  width: 101.26842498779297px;
+  height: 59.71599197387695px;
+  color: #070559;
+  box-shadow: 0px 4px 4px 0 #000000;
   font-size: 15px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
+  font-family: Alkatra, "Bold";
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
 }
-
-.android-small-2-1 {
-@media (max-width: 1440px) {
-  .android-small-2-1 {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
+.text-1-2-2 {
+  width: 122px;
+  height: 62px;
+  color: #070559;
+  box-shadow: 0px 4px 4px 0 #000000;
+  font-size: 24px;
+  font-family: Inknut Antiqua, "Black";
+  font-weight: 900;
+  text-align: center;
+  vertical-align: top;
 }
-
-@media (max-width: 768px) {
-  .android-small-2-1 {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+.text-1-2-3 {
+  position: absolute;
+  left: 155px;
+  top: 124px;
+  width: 86px;
+  height: 93px;
+  color: #070559;
+  box-shadow: 0px 4px 4px 0 #000000;
+  font-size: 36px;
+  font-family: Inknut Antiqua, "Black";
+  font-weight: 900;
+  text-align: center;
+  vertical-align: top;
 }
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(255, 255, 255, 1);
+.text-1-2-4 {
+  position: absolute;
+  left: 8px;
+  top: 185px;
+  width: 380px;
+  height: 103px;
+  color: #070559;
+  box-shadow: 0px 4px 4px 0 #000000;
+  font-size: 40px;
+  font-family: Inknut Antiqua, "Black";
+  font-weight: 900;
+  text-align: center;
+  vertical-align: top;
 }
-
-```
-```
-End Page
-HTML
-
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exported Figma Design</title>
-  
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="android-small-3-1">
-<img src="images/image-4-2.png" class="image-4-2" alt="image-4" />
-<p class="text-3"><span class="text-white">Thank You</span></p>
-</div>
-
-</body>
-</html>
-
-CSS
-
-
-/* Add font files for Karantina */
-@font-face {
-  font-family: 'Karantina';
-  src: url('fonts/karantina.woff2') format('woff2'),
-       url('fonts/karantina.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+.text-0-1-2 {
+  width: 199px;
+  height: 103px;
+  color: #070559;
+  box-shadow: 0px 4px 4px 0 #000000;
+  font-size: 40px;
+  font-family: Inknut Antiqua, "Black";
+  font-weight: 900;
+  text-align: center;
+  vertical-align: top;
 }
-:root {
-  --font-family-karantina: 'Karantina', sans-serif;
-  --text-white: rgba(255, 255, 255, 1);
+.container-0-1-1 {
+  position: absolute;
+  left: 0px;
+  top: 35px;
+  width: 402px;
+  height: 874px;
+  background-color: #ffffff;
+  justify-content: start;
+  align-items: start;
 }
-
-.text-white {
-  color: var(--text-white);
+.text-1-2-8 {
+  width: 123px;
+  height: 30px;
+  color: #070559;
+  font-size: 20px;
+  font-family: Briem Hand, "Bold";
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
 }
-
-
-/* CSS Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.text-1-2-9 {
+  width: 146px;
+  height: 30px;
+  color: #070559;
+  font-size: 20px;
+  font-family: Briem Hand, "Bold";
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
 }
-
-body {
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
+.text-1-2-10 {
+  width: 130px;
+  height: 30px;
+  color: #070559;
+  font-size: 20px;
+  font-family: Briem Hand, "Bold";
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
 }
-
-img {
-  max-width: 100%;
-  height: auto;
+.text-1-2-11 {
+  width: 164px;
+  height: 30px;
+  color: #070559;
+  font-size: 20px;
+  font-family: Briem Hand, "Bold";
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
 }
-
-.image-4-2 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  width: 100%;
-  height: auto;
+.text-1-2-12 {
+  width: 103px;
+  height: 30px;
+  color: #070559;
+  font-size: 20px;
+  font-family: Briem Hand, "Bold";
+  font-weight: 700;
+  text-align: center;
+  vertical-align: top;
 }
-
-.text-3 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-karantina);
-  font-weight: normal;
-  font-size: 48px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-white);
+.text-1-2-18 {
+  width: 148px;
+  height: 30px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Tilt Prism, "Regular";
+  font-weight: 400;
+  text-align: center;
+  vertical-align: top;
 }
-
-.android-small-3-1 {
-@media (max-width: 1440px) {
-  .android-small-3-1 {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
+.text--0- {
+  width: 91px;
+  height: 27px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Trispace, "Regular";
+  font-weight: 400;
+  text-align: center;
+  vertical-align: top;
 }
+</style>
 
-@media (max-width: 768px) {
-  .android-small-3-1 {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(255, 255, 255, 1);
-}
+<div class="container--0-">
+    <svg
+      width="402"
+      height="73"
+      viewBox="0 0 402 73"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="402" height="73" fill="#061A51"></rect>
+    </svg>
+    <div class="container-0-1-1">
+      <img src="D:\vs code - projects\web\Figma\Screenshot 2025-05-17 094924.png">
+        <svg
+      width="402"
+      height="73"
+      viewBox="0 0 402 73"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="402" height="73" fill="#061A51"></rect>
+    </svg>
+    <div class="text-0-1-2">REGISTRATION</div>
+    <div class="container-0-1-3">
+      <svg
+        width="248"
+        height="41"
+        viewBox="0 0 248 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
+      </svg>
+      <div class="text-1-2-1">Dept :</div>
+    </div>
+    <div class="container-0-1-4">
+      <svg
+        width="248"
+        height="41"
+        viewBox="0 0 248 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
+      </svg>
+      <div class="text-1-2-1">Year :</div>
+    </div>
+    <div class="container-0-1-5">
+      <svg
+        width="248"
+        height="41"
+        viewBox="0 0 248 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
+      </svg>
+      <div class="text-1-2-1">Email :</div>
+    </div>
+    <div class="container-0-1-6">
+      <svg
+        width="248"
+        height="41"
+        viewBox="0 0 248 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
+      </svg>
+      <div class="text-1-2-1">Ph. No :</div>
+    </div>
+    <div class="container-0-1-7">
+      <svg
+        width="248"
+        height="41"
+        viewBox="0 0 248 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
+      </svg>
+      <div class="text-1-2-1">Ref No :</div>
+    </div>
+    <div class="container-0-1-8">
+      <svg
+        width="107"
+        height="100"
+        viewBox="0 0 107 100"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <foreignObject x="0.132874" y="-3.18768" width="106.485" height="102.738"
+          ><div
+            xmlns="http://www.w3.org/1999/xhtml"
+            style="backdrop-filter:blur(2px);clip-path:url(#bgblur_0_33_4_clip_path);height:100%;width:100%"
+          ></div
+        ></foreignObject>
+        <g filter="url(#filter0_d_33_4)" data-figma-bg-blur-radius="4">
+          <path
+            d="M61.1414 86.898C57.7073 93.0914 48.8095 93.103 45.3927 86.9185L5.26531 14.2855C1.9537 8.29129 6.30241 0.92592 13.1584 0.917L93.6176 0.812313C100.474 0.803392 104.802 8.15747 101.473 14.1603L61.1414 86.898Z"
+            fill="#9EE8FD"
+          ></path>
+        </g>
+        <defs>
+          <filter
+            id="filter0_d_33_4"
+            x="0.132874"
+            y="-3.18768"
+            width="106.485"
+            height="102.738"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            ></feColorMatrix>
+            <feOffset dy="4"></feOffset>
+            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+            <feComposite in2="hardAlpha" operator="out"></feComposite>
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+            ></feColorMatrix>
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_33_4"
+            ></feBlend>
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_33_4"
+              result="shape"
+            ></feBlend>
+          </filter>
+          <clipPath
+            id="bgblur_0_33_4_clip_path"
+            transform="translate(-0.132874 3.18768)"
+          >
+            <path
+              d="M61.1414 86.898C57.7073 93.0914 48.8095 93.103 45.3927 86.9185L5.26531 14.2855C1.9537 8.29129 6.30241 0.92592 13.1584 0.917L93.6176 0.812313C100.474 0.803392 104.802 8.15747 101.473 14.1603L61.1414 86.898Z"
+            ></path>
+          </clipPath>
+        </defs>
+      </svg>
+      <div class="text-1-2-1">SUBMIT</div>
+    </div>
+  </div>
+  <div class="container--0-">
+    <svg
+      width="402"
+      height="73"
+      viewBox="0 0 402 73"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect width="402" height="73" fill="#061A51"></rect></svg
+    >
+    <img src="D:\vs code - projects\web\Figma\Screenshot 2025-05-17 094924.png">
+    <svg
+        width="402"
+        height="73"
+        viewBox="0 0 402 73"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="402" height="73" fill="#061A51"></rect>
+      </svg>
+      <div class="text-1-2-2">EVENTS</div>
+      <svg
+        width="248"
+        height="41"
+        viewBox="0 0 248 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect></svg
+      ><svg
+        width="248"
+        height="41"
+        viewBox="0 0 248 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect></svg
+      ><svg
+        width="248"
+        height="41"
+        viewBox="0 0 248 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect></svg
+      ><svg
+        width="248"
+        height="41"
+        viewBox="0 0 248 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect></svg
+      ><svg
+        width="248"
+        height="41"
+        viewBox="0 0 248 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
+      </svg>
+      <div class="text-1-2-8">Find the Bug</div>
+      <div class="text-1-2-9">Code it to Get it</div>
+      <div class="text-1-2-10">Logical Loops</div>
+      <div class="text-1-2-11">Can u play this ?</div>
+      <div class="text-1-2-12">Code Hunt</div>
+      <svg
+        width="48"
+        height="49"
+        viewBox="0 0 48 49"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M45.1659 20.0372C48.8265 21.8864 48.8265 27.1136 45.1659 28.9628L7.25455 48.1149C3.92887 49.795 0 47.378 0 43.6521L0 5.34792C0 1.62196 3.92888 -0.795005 7.25455 0.885063L45.1659 20.0372Z"
+          fill="#5ED4E9"
+        ></path></svg
+      ><svg
+        width="48"
+        height="49"
+        viewBox="0 0 48 49"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M45.1659 20.0372C48.8265 21.8864 48.8265 27.1136 45.1659 28.9628L7.25455 48.1149C3.92887 49.795 0 47.378 0 43.6521L0 5.34792C0 1.62196 3.92888 -0.795005 7.25455 0.885063L45.1659 20.0372Z"
+          fill="#5ED4E9"
+        ></path></svg
+      ><svg
+        width="48"
+        height="49"
+        viewBox="0 0 48 49"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M45.1659 20.0372C48.8265 21.8864 48.8265 27.1136 45.1659 28.9628L7.25455 48.1149C3.92887 49.795 0 47.378 0 43.6521L0 5.34792C0 1.62196 3.92888 -0.795005 7.25455 0.885063L45.1659 20.0372Z"
+          fill="#5ED4E9"
+        ></path></svg
+      ><svg
+        width="48"
+        height="49"
+        viewBox="0 0 48 49"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M45.1659 20.0372C48.8265 21.8864 48.8265 27.1136 45.1659 28.9628L7.25455 48.1149C3.92887 49.795 0 47.378 0 43.6521L0 5.34792C0 1.62196 3.92888 -0.795005 7.25455 0.885063L45.1659 20.0372Z"
+          fill="#5ED4E9"
+        ></path></svg
+      ><svg
+        width="48"
+        height="49"
+        viewBox="0 0 48 49"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M45.1659 20.0372C48.8265 21.8864 48.8265 27.1136 45.1659 28.9628L7.25455 48.1149C3.92887 49.795 0 47.378 0 43.6521L0 5.34792C0 1.62196 3.92888 -0.795005 7.25455 0.885063L45.1659 20.0372Z"
+          fill="#5ED4E9"
+        ></path>
+      </svg>
+      <div class="text-1-2-18">ALL THE BEST</div>
+    </div>
+  </div>
+  <div class="text--0-">PAGE 1</div>
+  <div class="text--0-">PAGE 4</div>
+  <div class="text--0-">PAGE 2</div>
+  <div class="text--0-">PAGE 3</div>
 
- 
-
-```
 
 ## OUTPUT:
-![alt text](<Screenshot 2025-05-19 205310.png>)
+![alt text](<Screenshot 2025-05-21 204620.png>)
+![alt text](<Screenshot 2025-05-21 204641.png>)
+![alt text](<Screenshot 2025-05-21 204702.png>)
+![alt text](<Screenshot 2025-05-21 204722.png>)
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
