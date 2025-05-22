@@ -1,5 +1,5 @@
 # Ex09 Event Registration Web Application
-## Date: 19-05-2025
+## Date:20/05/2025
 
 ## AIM:
 To design, develop and deploy a web application for event registration.
@@ -33,457 +33,76 @@ Publish the website in the given URL.
 Figma
 
 ## CODE:
+home page
+```
 
-Name : HEMAPRIYAN.P
+<div style="width: 393px; height: 852px; position: relative; background: white"></div>
+<img style="width: 393px; height: 852px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 1px black solid" src="https://via.placeholder.com/393x852" />
+<img style="width: 344px; height: 48px" src="https://via.placeholder.com/344x48" />
+<img style="width: 217px; height: 206px" src="https://via.placeholder.com/217x206" />
+<div style="width: 233px; height: 67px; background: #D24444; box-shadow: 4px 4px 4px; border-radius: 20px; border: 1px rgba(0, 0, 0, 0.20) solid; filter: blur(4px)"></div>
+<div style="width: 233px; height: 67px; background: #D24444; box-shadow: 4px 4px 4px; border-radius: 20px; border: 1px rgba(0, 0, 0, 0.20) solid; filter: blur(4px)"></div>
+<div style="width: 213px; height: 64px; text-align: center; color: white; font-size: 24px; font-family: Inknut Antiqua; font-weight: 400; word-wrap: break-word">REGISER</div>
+<div style="width: 213px; height: 64px; text-align: center; color: white; font-size: 24px; font-family: Inknut Antiqua; font-weight: 400; word-wrap: break-word">LOGIN</div>
+<div style="width: 340px; height: 47px; background: #D9D9D9"></div>
+<div style="width: 277px; height: 38px; text-align: center; color: #D24444; font-size: 32px; font-family: Kavoon; font-weight: 400; word-wrap: break-word">ART EXHIBITION</div>
 
-Reg / Ref No : 212224040115/ 24900468
+events page
 
-html
-<style>
-    .container--0- {
-  position: absolute;
-  left: 1338px;
-  top: 0px;
-  width: 402px;
-  height: 874px;
-  background-color: #ffffff;
-  justify-content: start;
-  align-items: start;
-}
-.text-1-2-1 {
-  position: absolute;
-  left: 151.00284774538653px;
-  top: 713.1062073967535px;
-  width: 101.26842498779297px;
-  height: 59.71599197387695px;
-  color: #070559;
-  box-shadow: 0px 4px 4px 0 #000000;
-  font-size: 15px;
-  font-family: Alkatra, "Bold";
-  font-weight: 700;
-  text-align: center;
-  vertical-align: top;
-}
-.text-1-2-2 {
-  width: 122px;
-  height: 62px;
-  color: #070559;
-  box-shadow: 0px 4px 4px 0 #000000;
-  font-size: 24px;
-  font-family: Inknut Antiqua, "Black";
-  font-weight: 900;
-  text-align: center;
-  vertical-align: top;
-}
-.text-1-2-3 {
-  position: absolute;
-  left: 155px;
-  top: 124px;
-  width: 86px;
-  height: 93px;
-  color: #070559;
-  box-shadow: 0px 4px 4px 0 #000000;
-  font-size: 36px;
-  font-family: Inknut Antiqua, "Black";
-  font-weight: 900;
-  text-align: center;
-  vertical-align: top;
-}
-.text-1-2-4 {
-  position: absolute;
-  left: 8px;
-  top: 185px;
-  width: 380px;
-  height: 103px;
-  color: #070559;
-  box-shadow: 0px 4px 4px 0 #000000;
-  font-size: 40px;
-  font-family: Inknut Antiqua, "Black";
-  font-weight: 900;
-  text-align: center;
-  vertical-align: top;
-}
-.text-0-1-2 {
-  width: 199px;
-  height: 103px;
-  color: #070559;
-  box-shadow: 0px 4px 4px 0 #000000;
-  font-size: 40px;
-  font-family: Inknut Antiqua, "Black";
-  font-weight: 900;
-  text-align: center;
-  vertical-align: top;
-}
-.container-0-1-1 {
-  position: absolute;
-  left: 0px;
-  top: 35px;
-  width: 402px;
-  height: 874px;
-  background-color: #ffffff;
-  justify-content: start;
-  align-items: start;
-}
-.text-1-2-8 {
-  width: 123px;
-  height: 30px;
-  color: #070559;
-  font-size: 20px;
-  font-family: Briem Hand, "Bold";
-  font-weight: 700;
-  text-align: center;
-  vertical-align: top;
-}
-.text-1-2-9 {
-  width: 146px;
-  height: 30px;
-  color: #070559;
-  font-size: 20px;
-  font-family: Briem Hand, "Bold";
-  font-weight: 700;
-  text-align: center;
-  vertical-align: top;
-}
-.text-1-2-10 {
-  width: 130px;
-  height: 30px;
-  color: #070559;
-  font-size: 20px;
-  font-family: Briem Hand, "Bold";
-  font-weight: 700;
-  text-align: center;
-  vertical-align: top;
-}
-.text-1-2-11 {
-  width: 164px;
-  height: 30px;
-  color: #070559;
-  font-size: 20px;
-  font-family: Briem Hand, "Bold";
-  font-weight: 700;
-  text-align: center;
-  vertical-align: top;
-}
-.text-1-2-12 {
-  width: 103px;
-  height: 30px;
-  color: #070559;
-  font-size: 20px;
-  font-family: Briem Hand, "Bold";
-  font-weight: 700;
-  text-align: center;
-  vertical-align: top;
-}
-.text-1-2-18 {
-  width: 148px;
-  height: 30px;
-  color: #ffffff;
-  font-size: 24px;
-  font-family: Tilt Prism, "Regular";
-  font-weight: 400;
-  text-align: center;
-  vertical-align: top;
-}
-.text--0- {
-  width: 91px;
-  height: 27px;
-  color: #ffffff;
-  font-size: 24px;
-  font-family: Trispace, "Regular";
-  font-weight: 400;
-  text-align: center;
-  vertical-align: top;
-}
-</style>
+<div style="width: 393px; height: 852px; position: relative; background: white">
+  <img style="width: 393px; height: 852px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/393x852" />
+  <div style="width: 249px; height: 50px; left: 77px; top: 88px; position: absolute; text-align: center; color: #FC0707; font-size: 24px; font-family: Kavoon; font-weight: 400; word-wrap: break-word">ART EXHIEXHIBITION EVEEVENTS </div>
+  <div style="width: 283px; height: 25px; left: 77px; top: 197px; position: absolute; color: #4619FA; font-size: 20px; font-family: Kavoon; font-weight: 400; word-wrap: break-word">THE SOLO EXHIBITION</div>
+  <div style="width: 283px; height: 25px; left: 77px; top: 272px; position: absolute; color: #4619FA; font-size: 20px; font-family: Kavoon; font-weight: 400; word-wrap: break-word">THE COLLECTIVE EXHIBITION</div>
+  <div style="width: 283px; height: 25px; left: 77px; top: 347px; position: absolute; color: #4619FA; font-size: 20px; font-family: Kavoon; font-weight: 400; word-wrap: break-word">THE TEMPORARY EXHIBITION</div>
+  <div style="width: 283px; height: 25px; left: 77px; top: 429px; position: absolute; color: #4619FA; font-size: 20px; font-family: Kavoon; font-weight: 400; word-wrap: break-word">THE ITINERANT EXHIBITION</div>
+  <div style="width: 283px; height: 25px; left: 77px; top: 521px; position: absolute; color: #4619FA; font-size: 20px; font-family: Kavoon; font-weight: 400; word-wrap: break-word">THE ONLINE EXHIBITION</div>
+  <div style="width: 283px; height: 25px; left: 77px; top: 596px; position: absolute; color: #4619FA; font-size: 18px; font-family: Kavoon; font-weight: 400; word-wrap: break-word">THE ANTHOLOGICAL EXHIBITION</div>
+  <div style="width: 283px; height: 25px; left: 77px; top: 683px; position: absolute; color: #4619FA; font-size: 18px; font-family: Kavoon; font-weight: 400; word-wrap: break-word">THE RETROSPECTIVE EXHIBITION</div>
+</div>
 
-<div class="container--0-">
-    <svg
-      width="402"
-      height="73"
-      viewBox="0 0 402 73"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect width="402" height="73" fill="#061A51"></rect>
-    </svg>
-    <div class="container-0-1-1">
-      <img src="D:\vs code - projects\web\Figma\Screenshot 2025-05-17 094924.png">
-        <svg
-      width="402"
-      height="73"
-      viewBox="0 0 402 73"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect width="402" height="73" fill="#061A51"></rect>
-    </svg>
-    <div class="text-0-1-2">REGISTRATION</div>
-    <div class="container-0-1-3">
-      <svg
-        width="248"
-        height="41"
-        viewBox="0 0 248 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
-      </svg>
-      <div class="text-1-2-1">Dept :</div>
-    </div>
-    <div class="container-0-1-4">
-      <svg
-        width="248"
-        height="41"
-        viewBox="0 0 248 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
-      </svg>
-      <div class="text-1-2-1">Year :</div>
-    </div>
-    <div class="container-0-1-5">
-      <svg
-        width="248"
-        height="41"
-        viewBox="0 0 248 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
-      </svg>
-      <div class="text-1-2-1">Email :</div>
-    </div>
-    <div class="container-0-1-6">
-      <svg
-        width="248"
-        height="41"
-        viewBox="0 0 248 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
-      </svg>
-      <div class="text-1-2-1">Ph. No :</div>
-    </div>
-    <div class="container-0-1-7">
-      <svg
-        width="248"
-        height="41"
-        viewBox="0 0 248 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
-      </svg>
-      <div class="text-1-2-1">Ref No :</div>
-    </div>
-    <div class="container-0-1-8">
-      <svg
-        width="107"
-        height="100"
-        viewBox="0 0 107 100"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <foreignObject x="0.132874" y="-3.18768" width="106.485" height="102.738"
-          ><div
-            xmlns="http://www.w3.org/1999/xhtml"
-            style="backdrop-filter:blur(2px);clip-path:url(#bgblur_0_33_4_clip_path);height:100%;width:100%"
-          ></div
-        ></foreignObject>
-        <g filter="url(#filter0_d_33_4)" data-figma-bg-blur-radius="4">
-          <path
-            d="M61.1414 86.898C57.7073 93.0914 48.8095 93.103 45.3927 86.9185L5.26531 14.2855C1.9537 8.29129 6.30241 0.92592 13.1584 0.917L93.6176 0.812313C100.474 0.803392 104.802 8.15747 101.473 14.1603L61.1414 86.898Z"
-            fill="#9EE8FD"
-          ></path>
-        </g>
-        <defs>
-          <filter
-            id="filter0_d_33_4"
-            x="0.132874"
-            y="-3.18768"
-            width="106.485"
-            height="102.738"
-            filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
-          >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
-            <feColorMatrix
-              in="SourceAlpha"
-              type="matrix"
-              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-              result="hardAlpha"
-            ></feColorMatrix>
-            <feOffset dy="4"></feOffset>
-            <feGaussianBlur stdDeviation="2"></feGaussianBlur>
-            <feComposite in2="hardAlpha" operator="out"></feComposite>
-            <feColorMatrix
-              type="matrix"
-              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
-            ></feColorMatrix>
-            <feBlend
-              mode="normal"
-              in2="BackgroundImageFix"
-              result="effect1_dropShadow_33_4"
-            ></feBlend>
-            <feBlend
-              mode="normal"
-              in="SourceGraphic"
-              in2="effect1_dropShadow_33_4"
-              result="shape"
-            ></feBlend>
-          </filter>
-          <clipPath
-            id="bgblur_0_33_4_clip_path"
-            transform="translate(-0.132874 3.18768)"
-          >
-            <path
-              d="M61.1414 86.898C57.7073 93.0914 48.8095 93.103 45.3927 86.9185L5.26531 14.2855C1.9537 8.29129 6.30241 0.92592 13.1584 0.917L93.6176 0.812313C100.474 0.803392 104.802 8.15747 101.473 14.1603L61.1414 86.898Z"
-            ></path>
-          </clipPath>
-        </defs>
-      </svg>
-      <div class="text-1-2-1">SUBMIT</div>
-    </div>
-  </div>
-  <div class="container--0-">
-    <svg
-      width="402"
-      height="73"
-      viewBox="0 0 402 73"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <rect width="402" height="73" fill="#061A51"></rect></svg
-    >
-    <img src="D:\vs code - projects\web\Figma\Screenshot 2025-05-17 094924.png">
-    <svg
-        width="402"
-        height="73"
-        viewBox="0 0 402 73"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="402" height="73" fill="#061A51"></rect>
-      </svg>
-      <div class="text-1-2-2">EVENTS</div>
-      <svg
-        width="248"
-        height="41"
-        viewBox="0 0 248 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect></svg
-      ><svg
-        width="248"
-        height="41"
-        viewBox="0 0 248 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect></svg
-      ><svg
-        width="248"
-        height="41"
-        viewBox="0 0 248 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect></svg
-      ><svg
-        width="248"
-        height="41"
-        viewBox="0 0 248 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect></svg
-      ><svg
-        width="248"
-        height="41"
-        viewBox="0 0 248 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="248" height="41" rx="20.5" fill="#D9D9D9"></rect>
-      </svg>
-      <div class="text-1-2-8">Find the Bug</div>
-      <div class="text-1-2-9">Code it to Get it</div>
-      <div class="text-1-2-10">Logical Loops</div>
-      <div class="text-1-2-11">Can u play this ?</div>
-      <div class="text-1-2-12">Code Hunt</div>
-      <svg
-        width="48"
-        height="49"
-        viewBox="0 0 48 49"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M45.1659 20.0372C48.8265 21.8864 48.8265 27.1136 45.1659 28.9628L7.25455 48.1149C3.92887 49.795 0 47.378 0 43.6521L0 5.34792C0 1.62196 3.92888 -0.795005 7.25455 0.885063L45.1659 20.0372Z"
-          fill="#5ED4E9"
-        ></path></svg
-      ><svg
-        width="48"
-        height="49"
-        viewBox="0 0 48 49"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M45.1659 20.0372C48.8265 21.8864 48.8265 27.1136 45.1659 28.9628L7.25455 48.1149C3.92887 49.795 0 47.378 0 43.6521L0 5.34792C0 1.62196 3.92888 -0.795005 7.25455 0.885063L45.1659 20.0372Z"
-          fill="#5ED4E9"
-        ></path></svg
-      ><svg
-        width="48"
-        height="49"
-        viewBox="0 0 48 49"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M45.1659 20.0372C48.8265 21.8864 48.8265 27.1136 45.1659 28.9628L7.25455 48.1149C3.92887 49.795 0 47.378 0 43.6521L0 5.34792C0 1.62196 3.92888 -0.795005 7.25455 0.885063L45.1659 20.0372Z"
-          fill="#5ED4E9"
-        ></path></svg
-      ><svg
-        width="48"
-        height="49"
-        viewBox="0 0 48 49"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M45.1659 20.0372C48.8265 21.8864 48.8265 27.1136 45.1659 28.9628L7.25455 48.1149C3.92887 49.795 0 47.378 0 43.6521L0 5.34792C0 1.62196 3.92888 -0.795005 7.25455 0.885063L45.1659 20.0372Z"
-          fill="#5ED4E9"
-        ></path></svg
-      ><svg
-        width="48"
-        height="49"
-        viewBox="0 0 48 49"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M45.1659 20.0372C48.8265 21.8864 48.8265 27.1136 45.1659 28.9628L7.25455 48.1149C3.92887 49.795 0 47.378 0 43.6521L0 5.34792C0 1.62196 3.92888 -0.795005 7.25455 0.885063L45.1659 20.0372Z"
-          fill="#5ED4E9"
-        ></path>
-      </svg>
-      <div class="text-1-2-18">ALL THE BEST</div>
-    </div>
-  </div>
-  <div class="text--0-">PAGE 1</div>
-  <div class="text--0-">PAGE 4</div>
-  <div class="text--0-">PAGE 2</div>
-  <div class="text--0-">PAGE 3</div>
+event registeration
 
+<div style="width: 393px; height: 852px; position: relative; background: white">
+  <img style="width: 393px; height: 852px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/393x852" />
+  <div style="width: 283px; height: 40px; left: 70px; top: 62px; position: absolute; color: #FF00D6; font-size: 24px; font-family: Hanalei Fill; font-weight: 400; word-wrap: break-word">EVENT REGISTRATION FORM</div>
+  <div style="width: 163px; height: 19px; left: 68px; top: 102px; position: absolute; color: rgba(0, 0, 0, 0.63); font-size: 15px; font-family: Adamina; font-weight: 400; word-wrap: break-word">Fill the details</div>
+  <div style="width: 163px; height: 19px; left: 68px; top: 102px; position: absolute; color: rgba(0, 0, 0, 0.63); font-size: 15px; font-family: Adamina; font-weight: 400; word-wrap: break-word">Fill the details</div>
+  <div style="width: 224px; height: 29px; left: 56px; top: 154px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 224px; height: 29px; left: 56px; top: 222px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 224px; height: 29px; left: 56px; top: 289px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 224px; height: 29px; left: 56px; top: 358px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 224px; height: 29px; left: 56px; top: 426px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 224px; height: 29px; left: 56px; top: 496px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 224px; height: 29px; left: 56px; top: 566px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 224px; height: 29px; left: 56px; top: 636px; position: absolute; background: #D9D9D9"></div>
+  <div style="width: 126px; height: 26px; left: 71px; top: 158px; position: absolute; color: black; font-size: 18px; font-family: Andada Pro; font-weight: 400; word-wrap: break-word">Full Name</div>
+  <div style="width: 126px; height: 26px; left: 71px; top: 227px; position: absolute; color: black; font-size: 18px; font-family: Andada Pro; font-weight: 400; word-wrap: break-word">Gender</div>
+  <div style="width: 126px; height: 26px; left: 71px; top: 429px; position: absolute; color: black; font-size: 18px; font-family: Andada Pro; font-weight: 400; word-wrap: break-word">Department</div>
+  <div style="width: 186px; height: 26px; left: 71px; top: 502px; position: absolute; color: black; font-size: 18px; font-family: Andada Pro; font-weight: 400; word-wrap: break-word">Mobile Number</div>
+  <div style="width: 126px; height: 26px; left: 71px; top: 569px; position: absolute; color: black; font-size: 18px; font-family: Andada Pro; font-weight: 400; word-wrap: break-word">Email ID</div>
+  <div style="width: 196px; height: 26px; left: 71px; top: 639px; position: absolute; color: black; font-size: 18px; font-family: Andada Pro; font-weight: 400; word-wrap: break-word">Events To Register</div>
+  <div style="width: 196px; height: 26px; left: 71px; top: 639px; position: absolute; color: black; font-size: 18px; font-family: Andada Pro; font-weight: 400; word-wrap: break-word">Events To Register</div>
+  <div style="width: 126px; height: 26px; left: 71px; top: 293px; position: absolute; color: black; font-size: 18px; font-family: Andada Pro; font-weight: 400; word-wrap: break-word">Age</div>
+  <div style="width: 186px; height: 26px; left: 71px; top: 360px; position: absolute; color: black; font-size: 18px; font-family: Andada Pro; font-weight: 400; word-wrap: break-word">Register Number</div>
+  <div style="width: 202px; height: 58px; left: 117px; top: 727px; position: absolute; background: #F34D4D; border-radius: 20px; border: 1px rgba(0, 0, 0, 0.20) solid"></div>
+  <div style="width: 147px; height: 59px; left: 144px; top: 743px; position: absolute; text-align: center; color: black; font-size: 24px; font-family: Andada Pro; font-weight: 700; word-wrap: break-word">REGISTER</div>
+</div>
 
+contact page
+
+<div style="width: 393px; height: 852px; position: relative; background: white">
+  <img style="width: 393px; height: 852px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/393x852" />
+  <img style="width: 383px; height: 56px; left: 6px; top: 68px; position: absolute" src="https://via.placeholder.com/383x56" />
+  <div style="width: 201px; height: 39px; left: 83px; top: 170px; position: absolute; text-align: center; color: black; font-size: 24px; font-family: Andada Pro; font-weight: 800; word-wrap: break-word">THANK YOU</div>
+  <div style="width: 201px; height: 39px; left: 87px; top: 336px; position: absolute; text-align: center; color: #383DBC; font-size: 24px; font-family: Andada Pro; font-weight: 800; word-wrap: break-word">Contact us</div>
+  <div style="width: 218px; height: 13px; left: 87px; top: 244px; position: absolute; text-align: center; color: black; font-size: 14px; font-family: Andada Pro; font-weight: 500; word-wrap: break-word">An awe-inspiring showcase of creativity, each stroke and sculpture tells a story, inviting us to explore the artist's world.</div>
+  <div style="width: 267px; height: 13px; left: 60px; top: 381px; position: absolute; text-align: center; color: #DAD31E; font-size: 14px; font-family: Andada Pro; font-weight: 500; word-wrap: break-word">E-Mail<br/>savethaengineeringcollege@gmail.com<br/>Phone<br/>9063743779<br/>9863677367</div>
+</div>
+```
 ## OUTPUT:
-![alt text](<Screenshot 2025-05-21 204620.png>)
-![alt text](<Screenshot 2025-05-21 204641.png>)
-![alt text](<Screenshot 2025-05-21 204702.png>)
-![alt text](<Screenshot 2025-05-21 204722.png>)
+![alt text](<Screenshot 2025-05-22 080900.png>)
+
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
